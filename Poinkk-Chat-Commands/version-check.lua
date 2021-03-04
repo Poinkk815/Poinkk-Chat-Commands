@@ -40,7 +40,7 @@ Citizen.CreateThread(function()
 			end
 		else
 			print( label )			
-			print('  ||    ^1There was an error getting the latest version information, if the issue persists contact Mystic#9999 on Discord.\n^0  ||\n  \\\\\n')
+			print('  ||    ^1There was an error getting the latest version information... \n^0  ||\n  \\\\\n')
 		end
 		
 		SetTimeout(60000000, VersionCheckHTTPRequest)
