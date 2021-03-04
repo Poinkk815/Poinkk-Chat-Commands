@@ -45,8 +45,3 @@ end, false)
 RegisterCommand('911', function(source, args, user)
     TriggerClientEvent('chatMessage', -1, "^1^*911 | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
 end, false)
-
--- /twtvpn command --
-RegisterCommand('twtvpn', function(source, args, user)
-    TriggerClientEvent('chatMessage', -1, "^*twtvpn | ^7" .. GetPlayerid(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
-end, false)
