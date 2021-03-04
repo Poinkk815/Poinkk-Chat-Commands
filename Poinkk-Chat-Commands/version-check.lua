@@ -18,7 +18,7 @@ Citizen.CreateThread(function()
 	end
 
 	function VersionCheckHTTPRequest()
-		PerformHttpRequest('https://github.com/Poinkk815/Poinkk-Chat-Commands', VersionCheck, 'GET')
+		PerformHttpRequest('https://github.com/Poinkk815/Poinkk-Chat-Commands/blob/main/Poinkk-Chat-Commands/fxmanifest.lua', VersionCheck, 'GET')
 	end
 
 	function VersionCheck(err, response, headers)
