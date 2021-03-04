@@ -28,7 +28,7 @@ Citizen.CreateThread(function()
 			if CurrentVersion ~= Data.NewestVersion then
 				print( label )			
 				print('  ||    \n  ||    Poinkk-Chat-Commands is outdated!')
-				print('  ||    Current version: ^2' .. Data.NewestVersion .. '^7')
+				print('  ||    Current version: ^1' .. Data.NewestVersion .. '^7')
 				print('  ||    Your version: ^1' .. CurrentVersion .. '^7')
 				print('  ||    Please download the lastest version from ^5' .. Data.DownloadLocation .. '^7')
 				if Data.Changes ~= '' then
