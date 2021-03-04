@@ -15,7 +15,7 @@ name 'Poinkk-Chat-Commands'
 author 'Poinkk815'
 description 'Poinkk RP Chat Commands'
 version 'v1.0.0'
-url ''
+url 'https://github.com/Poinkk815/Poinkk-Chat-Commands/blob/main/Poinkk-Chat-Commands'
 
 client_scripts {
     'client/client.lua'
