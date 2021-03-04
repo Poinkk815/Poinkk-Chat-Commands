@@ -18,7 +18,7 @@ Citizen.CreateThread(function()
 	end
 
 	function VersionCheckHTTPRequest()
-		PerformHttpRequest('https://raw.githubusercontent.com/izMystic/Mystic-RPCommands/main/version.json', VersionCheck, 'GET')
+		PerformHttpRequest('https://github.com/Poinkk815/Poinkk-Chat-Commands', VersionCheck, 'GET')
 	end
 
 	function VersionCheck(err, response, headers)
