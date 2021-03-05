@@ -22,7 +22,7 @@ RegisterCommand('do', function(source, args, user)
 end, false)
 
 -- /showid command--
-RegisterCommand('gme', function(source, args, user)
+RegisterCommand('showid', function(source, args, user)
     TriggerClientEvent('chatMessage', -1, "^1^*Showid | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
 end, false)
 
