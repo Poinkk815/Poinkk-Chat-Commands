@@ -38,7 +38,7 @@ end, false)
 
 -- /darkweb --
 RegisterCommand('darkweb', function(source, args, user)
-    TriggerClientEvent('chatMessage', -1, "^*Darkweb | ^7" .. GetPlayerid(source) .. "^r", {0, 0, 0}, table.concat(args, " "))
+    TriggerClientEvent('chatMessage', -1, "^*Darkweb ^0| ^7@Anonymous ^r", {0, 0, 0}, table.concat(args, " "))
 end, false)
 
 -- /911 command --
