@@ -45,3 +45,8 @@ end, false)
 RegisterCommand('911', function(source, args, user)
     TriggerClientEvent('chatMessage', -1, "^1^*911 | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
 end, false)
+
+-- /511 command --
+RegisterCommand('511', function(source, args, user)
+    TriggerClientEvent('chatMessage', -1, "^6^*511 | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
+end, false)
