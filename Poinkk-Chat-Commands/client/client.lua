@@ -23,10 +23,6 @@ Citizen.CreateThread(function()
     TriggerEvent('chat:addSuggestion', '/ooc', 'Send an out of character message (Global)', {
         {name = "Action", help = "action."}
     })
-    
-    TriggerEvent('chat:addSuggestion', '/darkweb', 'Send an anymous message (Global)', {
-        {name = "Action", help = "action."}
-    })
 
     TriggerEvent('chat:addSuggestion', '/911', 'Send a 911 call (Global)', {
         {name = "Action", help = "action."}
