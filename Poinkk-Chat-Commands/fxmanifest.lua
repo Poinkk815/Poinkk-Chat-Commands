@@ -14,7 +14,7 @@ games{'gta5'}
 name 'Poinkk-Chat-Commands'
 author 'Poinkk815'
 description 'Poinkk RP Chat Commands'
-version 'v1.2.0'
+version 'v1.3.0'
 url 'https://github.com/Poinkk815/Poinkk-Chat-Commands'
 
 client_scripts {
