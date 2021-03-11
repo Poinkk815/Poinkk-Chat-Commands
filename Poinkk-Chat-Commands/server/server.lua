@@ -33,7 +33,7 @@ end, false)
 
 -- /occ command --
 RegisterCommand('ooc', function(source, args, user)
-    TriggerClientEvent('chatMessage', -1, "^4^*OOC | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
+    TriggerClientEvent('chatMessage', -1, "^9^*OOC | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
 end, false)
 
 -- /darkweb --
@@ -48,5 +48,5 @@ end, false)
 
 -- /511 command --
 RegisterCommand('511', function(source, args, user)
-    TriggerClientEvent('chatMessage', -1, "^6^*511 | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
+    TriggerClientEvent('chatMessage', -1, "^3^*511 | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
 end, false)
