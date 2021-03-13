@@ -29,9 +29,10 @@ Citizen.CreateThread(function()
     })
 
     TriggerEvent('chat:addSuggestion', '/showid', 'Show someone your ID name (Proximity)', {
-        {name = "Action", help = "action."}
+        {name = "Action", help = "Frist and Last name."}
     })
 end)
+
 
 -- /me command --
 RegisterNetEvent('SendProximityMe')
