@@ -31,6 +31,10 @@ Citizen.CreateThread(function()
     TriggerEvent('chat:addSuggestion', '/showid', 'Show someone your ID name (Proximity)', {
         {name = "Action", help = "Frist and Last name."}
     })
+
+    TriggerEvent('chat:addSuggestion', '/staff', 'staff saying something in chat (Global)', {
+    {name = "Action", help = "action."}
+    })
 end)
 
 
