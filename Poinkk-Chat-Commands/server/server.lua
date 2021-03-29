@@ -45,3 +45,8 @@ end, false)
 RegisterCommand('511', function(source, args, user)
     TriggerClientEvent('chatMessage', -1, "^3^*511 | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
 end, false)
+
+-- /staff command --
+RegisterCommand('staff', function(source, args, user)
+    TriggerClientEvent('chatMessage', -1, "^1^*ServerStaff | ^7" .. GetPlayerName(source) .. "^r", {128, 128, 128}, table.concat(args, " "))
+end, false)
