@@ -18,10 +18,10 @@ version 'v1.3.0'
 url 'https://github.com/Poinkk815/Poinkk-Chat-Commands'
 
 client_scripts {
-    'client/client.lua'
+    'client.lua'
 }
 
 server_scripts {
     'version_check.lua',
-    'server/server.lua'
+    'server.lua'
 }
