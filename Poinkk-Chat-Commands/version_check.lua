@@ -16,7 +16,7 @@ local label =
 Citizen.CreateThread(function()
 	local CurrentVersion = GetResourceMetadata(GetCurrentResourceName(), 'version', 0)
 	if not CurrentVersion then
-		print('^1Poinkk-Roleplay-Chat-Commands Version Check Failed!^7')
+		print('1Poinkk-Roleplay-Chat-Commands Version Check Failed!')
 	end
 
 	function VersionCheckHTTPRequest()
@@ -38,7 +38,7 @@ Citizen.CreateThread(function()
 				end
 			else
 				print( label )			
-				print('  ||    ^Poinkk-Roleplay-Chat-Commands is up to date!\n^0  ||\n  \\\\\n')
+				print('  ||    Poinkk-Roleplay-Chat-Commands is up to date!\n^0  ||\n  \\\\\n')
 			end
 		else
 			print( label )			
