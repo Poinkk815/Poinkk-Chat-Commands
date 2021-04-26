@@ -28,6 +28,10 @@ Citizen.CreateThread(function()
         {name = "Action", help = "action."}
     })
 
+    TriggerEvent('chat:addSuggestion', '/511', 'Send a 511 call to DOT (Global)', {
+        {name = "Action", help = "action."}
+    })
+
     TriggerEvent('chat:addSuggestion', '/showid', 'Show someone your ID name (Proximity)', {
         {name = "Action", help = "Frist and Last name."}
     })
